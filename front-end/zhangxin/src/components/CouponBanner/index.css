@@ -1,0 +1,200 @@
+.loagomv_font div{
+    text-align: left;
+    color: #fff;
+}
+
+.coupon img{
+    width: 100%;
+}
+
+.coupon_font{
+    position: relative;
+    height: 100%;    
+}
+
+.coupon_font .coupon_font_left{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #1E1F26;
+    position: absolute;
+    left: 10%;
+    top:15%
+}
+.coupon_font .coupon_font_right{
+    position: absolute;
+    right: 25%;
+    top:15%
+}
+.coupon_font .coupon_font_right div{
+    font-style: normal;
+}
+.coupon_font .coupon_font_right div:nth-child(1){
+    font-weight: 500;
+    font-size: 20px;
+    height: 24px;
+    line-height: 24px;
+    color: #1E1F26;
+}
+.coupon_font .coupon_font_right div:nth-child(2){
+    font-weight: 400;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    color: #4D5360; 
+    margin-top: 5px;
+}
+.coupon_font .coupon_font_right div:nth-child(3){
+    font-weight: 400;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    color: #4D5360; 
+    margin-top: 5px;
+}
+.coupon_font .coupon_font_right_button{
+    height: 32px;
+    width: 206px;
+    border-radius: 0px;
+    background: #272833;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mask_group span{
+    width: 23px;
+    height: 23px;
+    background: #D7D4FC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #2D2765;
+    display: inline-block;
+    margin:0 5px
+}
+@media screen and (max-width:768px) {
+    .couponBanner {
+        position: relative;
+        height: 817px;
+        background: url('../../../public/11028182.png') no-repeat #2D2765;
+    }
+    .logomv{
+        width: 100%;
+        height: 100%;
+        background: url('../../../public/maskgroup_2.png') no-repeat;
+        background-position: calc(100%) -30%;
+    }
+    .loagomv_font{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+    }
+
+    .loagomv_font div:nth-child(1) {
+        width: 300px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .loagomv_font  div:nth-child(2){
+        width: 100px;
+        font-size: 72px;
+        font-weight: 500;
+    }
+    .coupon{
+        position: absolute;
+        right: 15%;
+        top:70%;
+        width: 534px;
+        height: 150px;
+        background: url('../../../public/vector45.png') no-repeat #E1DDFB;
+    }
+ 
+
+
+    .coupon_font .coupon_font_tc{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #858B9C;
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+     }
+
+    .mask_group{
+        position: absolute;
+        top: 60%;
+        right: 63.5%;
+        color:#fff;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width:769px) {
+    .couponBanner {
+        position: relative;
+        height: 300px;
+        background: url('../../../public/22.png') no-repeat #2D2765;
+    }
+    .logomv{
+        width: 100%;
+        height: 100%;
+        background: url('../../../public/maskgroup.png') no-repeat;
+    }
+    .loagomv_font{
+        position: absolute;
+        top: 23%;
+        left: 21%;
+    }
+    
+    .loagomv_font div:nth-child(1) {
+        width: 290px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .loagomv_font  div:nth-child(2){
+        font-size: 72px;
+        font-weight: 500;
+    }
+    .coupon{
+        position: absolute;
+        right: 5%;
+        top:30%;
+        width: 534px;
+        height: 150px;
+        background: url('../../../public/vector45.png') no-repeat #E1DDFB;
+    }
+
+ 
+     .coupon_font .coupon_font_tc{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        color: #858B9C;
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+     }
+    .mask_group{
+        position: absolute;
+        top: 15%;
+        right: 5%;
+        color:#fff;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: right;
+    }
+
+}
+
